@@ -1,0 +1,22 @@
+.header {
+  background: #083863; 
+  color: #fff;
+  margin-bottom: $m-size; 
+  padding: $m-size 0;
+  margin-right: 0px; 
+  border-bottom: 20px solid white; 
+  width: 100%; 
+}
+
+// block element modifier (BEM)
+.header__title {
+  font-size: $l-size;
+  text-align: center; 
+}
+
+@media (min-width: 30rem) {
+  .header {
+    margin-bottom: 10px; 
+    width: 100%;
+  }
+}
